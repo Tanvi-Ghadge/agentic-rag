@@ -1,11 +1,11 @@
-Autonomous Agentic RAG Framework with Web Search and Tool-Use:
+## Autonomous Agentic RAG Framework with Web Search and Tool-Use:
 
 
 This repository showcases a sophisticated, agent-driven RAG system capable of dynamically handling complex queries that require multiple steps: real-time web ingestion, retrieval-augmented generation, and mathematical calculation.
 
 The core of this project is a Router Agent built on LangChain, which intelligently orchestrates various specialized tools to deliver a grounded, accurate, and high-speed response.
 
-Key Features:
+## Key Features:
 
 Agentic Routing: A central "Router Agent" decides the optimal flow of execution based on the user's prompt, automatically triggering the correct sequence of tools (e.g., ingest URL, then retrieve, then answer, or simply calculate).
 
@@ -31,4 +31,4 @@ Tool Utilization: Equipped with a calculator_tool to handle numerical and cost-e
 | **Vector Store** | **Pinecone** | Storing and retrieving vectorized content |
 | **Retrieval** | **EnsembleRetriever (BM25 + Dense)** | Maximize recall and contextual completeness |
 | **Re-ranking** | **Cross-Encoder** | Maximize precision of retrieved documents |
-| **Utility Tool** | **`calculator_tool`**, **`ingestion_tool`**,, **`answering_tool`**, **`retriever_tool`** | Handles mathematical expressions and budget calculation |
+| **Utility Tool** | **`calculator_tool`**, **`ingestion_tool`**, **`answering_tool`**, **`retriever_tool`** | Handles mathematical expressions and budget calculation |
