@@ -31,4 +31,4 @@ Tool Utilization: Equipped with a calculator_tool to handle numerical and cost-e
 | **Vector Store** | **Pinecone** | Storing and retrieving vectorized content |
 | **Retrieval** | **EnsembleRetriever (BM25 + Dense)** | Maximize recall and contextual completeness |
 | **Re-ranking** | **Cross-Encoder** | Maximize precision of retrieved documents |
-| **Utility Tool** | **`calculator_tool`** | Handles mathematical expressions and budget calculation |
+| **Utility Tool** | **calculator_tool** **ingestion_tool** **answering_tool** **retriever_tool** | Handles mathematical expressions and budget calculation |
